@@ -23,7 +23,7 @@ public class PlayerScript : MonoBehaviour {
 			}
 			else
 			if(this.gameObject.transform.position.y>-1.7f && this.gameObject.transform.position.y<=-0.5f && numberOfJumps<2){
-			rigidbody2D.AddForce(new Vector2(0, 5), ForceMode2D.Impulse);
+			    rigidbody2D.AddForce(new Vector2(0, 5), ForceMode2D.Impulse);
 				numberOfJumps++;
 			}
 		}
